@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  {{ content }}
+
+  <div class="post-list">
+    {% for post in site.posts limit:3 %}
+{% include post_inc.html %}
+    {% endfor %}
+  </div>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+
+</div>
