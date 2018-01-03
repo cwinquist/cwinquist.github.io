@@ -1,7 +1,7 @@
 theme: jekyll-theme-dinky
 timezone: America/New_York
 title: Chris Winquist
-description: Tech tidbits
+description: Tech bits
 
 plugins:
   - jekyll-feed
