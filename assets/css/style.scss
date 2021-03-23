@@ -12,3 +12,5 @@ article > header { margin: 0; padding: 0; border: 0; font: inherit; vertical-ali
 article > header h1,h2 { margin: 36px 0 1px }
 
 article > header time { color: $color-red }
+
+nav.post_navigation  a.next { float: right  }
